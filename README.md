@@ -1,6 +1,8 @@
 # CPDirectory
 指定したフォルダを任意の場所に複製
 
+※同じフォルダには複製出来ません※
+
 ## フォルダごと複製
 ![Animation](https://github.com/Cotoha-Saki/CPDirectory/assets/123475361/9207ef31-4d85-4a4e-9fa9-9023af62379d)
 
