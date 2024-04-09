@@ -11,7 +11,7 @@ class DirectoryCopier(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('CPDirectory')
+        self.setWindowTitle('ディレクトリを複製')
         self.setGeometry(300, 300, 300, 200)
 
         layout = QVBoxLayout()
@@ -48,11 +48,11 @@ class DirectoryCopier(QWidget):
 
     def select_src_directory(self):
         self.src_dir = QFileDialog.getExistingDirectory(self, 'コピー元のディレクトリを選択してください')
-        self.label_src.setText('コピー元 : ' + self.src_dir)
+        self.label_src.setText('コピー元: ' + self.src_dir)
 
     def select_dst_directory(self):
         self.dst_dir = QFileDialog.getExistingDirectory(self, 'コピー先のディレクトリを選択してください')
-        self.label_dst.setText('コピー先 : ' + self.dst_dir)
+        self.label_dst.setText('コピー先: ' + self.dst_dir)
 
     def copy_directory(self):
         if self.src_dir and self.dst_dir:
